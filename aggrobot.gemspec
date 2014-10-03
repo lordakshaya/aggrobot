@@ -18,8 +18,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rails', '>=3.1'
-  spec.add_dependency 'activerecord', '>=3.1'
+  spec.add_dependency 'rails', '>=3.0'
+  spec.add_dependency 'activerecord', '>=3.0'
   spec.add_dependency 'arel'
 
   spec.required_ruby_version = '>= 1.8.7'
